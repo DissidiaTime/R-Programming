@@ -6,5 +6,5 @@ myMean(assignment2)
 
 // The result comes out as 19.25.
 // The assignment calls to explain why this function works.
-// we assign the vector to assignment2. Then the function myMean contains the vector of numbers. 
-// My mean then calls for the function to return the value of sum(assignment2), which stores the sum of numbers in the vector assignment2, divided by length(assignment2), which stores the numerical length of the vector in assignment2.
+// we assign the vector to assignment2.  
+// The function mtMean then calls for the function to return the value of sum(assignment2), which stores the sum of numbers in the vector assignment2, divided by length(assignment2), which stores the numerical length of the vector in assignment2.
