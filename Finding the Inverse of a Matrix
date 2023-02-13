@@ -1,0 +1,28 @@
+# Our Assignment for week 5 was the following:
+
+# Find the value of inverse of a matrix, determinant of a matrix by using the following values:
+# A=matrix(1:100, nrow=10)
+# B=matrix(1:1000, nrow=10)
+
+# However, this isn’t possible to do. When you use the solve() function to find the inverse, you get this error message:
+
+A <- matrix(1:100, nrow=10)  
+
+B <- matrix(1:1000, nrow=10)
+
+I1 <- solve(A)
+
+I2 <- solve(B)
+
+#Error in solve.default(A) : 
+  #Lapack routine dgesv: system is exactly singular: U[6,6] = 0
+  
+#This error means that the system has a determinant of zero. An inverse cannot be found with a determinant of zero. It must be a non-zero number.
+
+#For Matrix B the error message shows as following:
+
+#Error in solve.default(B) : 'a' (10 x 100) must be square
+
+#In order for a Matrix to have an inverse, it must be a square. Matrix B is a rectangle due to it’s vast amounts of columns.
+
+#Thus, neither Matrix A or Matrix B have an inverse.
